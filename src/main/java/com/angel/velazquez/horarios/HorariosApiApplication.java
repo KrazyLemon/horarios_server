@@ -18,12 +18,13 @@ public class HorariosApiApplication {
 		return new WebMvcConfigurer() {
 			@Override
 			public void addCorsMappings(CorsRegistry registry) {
-				registry.addMapping("/**") // Permitir todos los endpoints
-						.allowedOrigins("http://localhost:5173") // Orígenes permitidos
-						.allowedMethods("GET", "POST", "PUT", "DELETE") // Métodos HTTP permitidos
-						.allowedHeaders("*") // Headers permitidos
-						.allowCredentials(true); // Permitir credenciales (cookies)
+				registry.addMapping("/**")
+						.allowedOrigins("http://localhost:5173") // Specify your frontend origins
+						.allowedMethods("GET", "POST", "PUT", "DELETE", "OPTIONS")
+						.allowedHeaders("*")
+						.allowCredentials(true); // Enable credentials
 			}
 		};
 	}
+
 }

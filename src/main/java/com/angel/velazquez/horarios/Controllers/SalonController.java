@@ -8,7 +8,6 @@ import org.springframework.web.bind.annotation.*;
 import java.util.List;
 
 @RestController
-@RequestMapping("/api/v1/salones")
 public class SalonController {
     private final SalonService salonService;
 
@@ -16,27 +15,27 @@ public class SalonController {
         this.salonService = salonService;
     }
 
-    @GetMapping
+    @GetMapping("/salones")
     public List<Salon> getAllSalones(){
         return salonService.findAll();
     }
 
-    @GetMapping("/{id}")
+    @GetMapping("/salon/{id}")
     public Salon getSalonById(@PathVariable String id){
         return salonService.findById(id);
     }
 
-    @GetMapping("/salon/{salon}")
+    @GetMapping("/salones/salon/{salon}")
     public Salon getSalonBySalon(@PathVariable String salon){
         return salonService.findBySalon(salon);
     }
 
-    @PostMapping
+    @PostMapping("/salon")
     public Salon createSalon(@RequestBody Salon salon){
         return salonService.save(salon);
     }
 
-    @PutMapping("/{id}")
+    @PutMapping("/salon/{id}")
     public ResponseEntity<Salon>updateSalon(@PathVariable String id, @RequestBody Salon salon){
         Salon salon1 = salonService.findById(id);
         if(salon1 != null){
@@ -46,7 +45,7 @@ public class SalonController {
         return ResponseEntity.notFound().build();
     }
 
-    @DeleteMapping("/{id}")
+    @DeleteMapping("/salon/{id}")
     public ResponseEntity<Void> deleteSalon(@PathVariable String id){
         salonService.deleteById(id);
         return  ResponseEntity.noContent().build();

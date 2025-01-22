@@ -8,7 +8,6 @@ import org.springframework.web.bind.annotation.*;
 import java.util.List;
 
 @RestController
-@RequestMapping("/api/v1/materias")
 public class MateriaController {
 
     private final MateriaService materiaService;
@@ -17,33 +16,33 @@ public class MateriaController {
         this.materiaService = materiaService;
     }
 
-    @GetMapping
+    @GetMapping("/materias")
     public List<Materia> getAllMaterias() {
         return materiaService.findAll();
     }
 
-    @GetMapping("/{id}")
+    @GetMapping("/materia/{id}")
     public Materia getMateriaById(@PathVariable String id) {
         return materiaService.findById(id);
     }
 
-    @GetMapping("/semestre/{semestre}")
+    @GetMapping("/materias/semestre/{semestre}")
     public List<Materia> obtenerMateriasPorSemestre(@PathVariable int semestre) {
         return materiaService.obtenerMateriasPorSemestre(semestre);
     }
 
-    @GetMapping("/nombre/{nombre}")
+    @GetMapping("/materia/nombre/{nombre}")
     public ResponseEntity<Materia> getMateriaByNombre(String nombre) {
        Materia materia1 = materiaService.findByNombre(nombre);
        return materia1 != null ? ResponseEntity.ok(materia1) : ResponseEntity.noContent().build();
     }
 
-    @PostMapping
+    @PostMapping("/materia")
     public Materia createMateria(@RequestBody Materia materia) {
         return materiaService.save(materia);
     }
 
-    @PutMapping("/{id}")
+    @PutMapping("/materia/{id}")
     public ResponseEntity<Materia> updateMateria(@PathVariable String id, @RequestBody Materia materia) {
         Materia existingMateria = materiaService.findById(id);
         if (existingMateria != null) {
@@ -53,7 +52,7 @@ public class MateriaController {
         return ResponseEntity.notFound().build();
     }
 
-    @DeleteMapping("/{id}")
+    @DeleteMapping("/materia/{id}")
     public ResponseEntity<Void> deleteMateria(@PathVariable String id) {
         materiaService.deleteById(id);
         return ResponseEntity.noContent().build();

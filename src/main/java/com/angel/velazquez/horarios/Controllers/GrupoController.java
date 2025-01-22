@@ -8,7 +8,6 @@ import org.springframework.web.bind.annotation.*;
 import java.util.List;
 
 @RestController
-@RequestMapping("/api/v1/grupos")
 public class GrupoController {
 
     private GrupoService grupoService;
@@ -18,29 +17,29 @@ public class GrupoController {
         this.grupoService = grupoService;
     }
 
-    @GetMapping
+    @GetMapping("/grupos")
     public List<Grupo> getAllGrupos() {
         return grupoService.findAll();
     }
 
-    @GetMapping("/{id}")
+    @GetMapping("/grupo/{id}")
     public ResponseEntity<Grupo> getGrupoById(@PathVariable String id) {
         Grupo grupo = grupoService.findById(id);
         return grupo != null ? ResponseEntity.ok(grupo) : ResponseEntity.noContent().build();
     }
 
-    @GetMapping("grupo/{grupo}")
+    @GetMapping("/grupos/grupo/{grupo}")
     public ResponseEntity<Grupo> getGrupoByGrupo(@PathVariable String grupo) {
         Grupo grupo1 = grupoService.buscarPorGrupo(grupo);
         return grupo != null ? ResponseEntity.ok(grupo1): ResponseEntity.noContent().build();
      }
 
-    @PostMapping
+    @PostMapping("/grupo")
     public Grupo createGrupo(@RequestBody Grupo grupo) {
         return grupoService.save(grupo);
     }
 
-    @PutMapping("/{id}")
+    @PutMapping("/grupo/{id}")
     public ResponseEntity<Grupo> updateGrupo(@PathVariable String id, @RequestBody Grupo grupo) {
         Grupo existingGrupo = grupoService.findById(id);
         if (existingGrupo != null) {
@@ -50,7 +49,7 @@ public class GrupoController {
         return ResponseEntity.notFound().build();
     }
 
-    @DeleteMapping("/{id}")
+    @DeleteMapping("/grupo/{id}")
     public ResponseEntity<Void> deleteGrupo(@PathVariable String id) {
         grupoService.deleteById(id);
         return ResponseEntity.noContent().build();

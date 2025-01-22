@@ -9,7 +9,6 @@ import org.springframework.web.bind.annotation.*;
 import java.util.List;
 
 @RestController
-@RequestMapping("/api/v1/profesores")
 public class ProfesorController {
 
     private final ProfesorService profesorService;
@@ -18,32 +17,32 @@ public class ProfesorController {
         this.profesorService = profesorService;
     }
 
-    @GetMapping
+    @GetMapping("/profesores")
     public List<Profesor> getAllProfesores() {
         return profesorService.findAll();
     }
 
-    @GetMapping("/{id}")
+    @GetMapping("/profesor/{id}")
     public Profesor getProfesorById(@PathVariable String id) {
         return profesorService.findById(id);
     }
 
-    @GetMapping("/nombre/{nombre}")
+    @GetMapping("/profesor/nombre/{nombre}")
     public Profesor getProfesorByNombre(@PathVariable String nombre) {
         return profesorService.findByNombre(nombre);
     }
 
-    @GetMapping("/materias/{materia}")
+    @GetMapping("/profesores/materias/{materia}")
     public List<Profesor> getProfesorByMaterias(@PathVariable String materia) {
         return profesorService.findByMateriasContaining(materia);
     }
 
-    @PostMapping
+    @PostMapping("/profesor")
     public Profesor createProfesor(@RequestBody Profesor profesor) {
         return profesorService.save(profesor);
     }
 
-    @PutMapping("/{id}")
+    @PutMapping("/profesor/{id}")
     public ResponseEntity<Profesor> updateProfesor(@PathVariable String id, @RequestBody Profesor profesor) {
         Profesor existingProfesor = profesorService.findById(id);
         if (existingProfesor != null) {
@@ -53,7 +52,7 @@ public class ProfesorController {
         return ResponseEntity.notFound().build();
     }
 
-    @DeleteMapping("/{id}")
+    @DeleteMapping("/profesor/{id}")
     public ResponseEntity<Void> deleteProfesor(@PathVariable String id) {
         profesorService.deleteById(id);
         return ResponseEntity.noContent().build();
