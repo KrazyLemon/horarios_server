@@ -1,0 +1,108 @@
+[{
+  "_id": {
+    "$oid": "676f5e9bad2add464def5494"
+  },
+  "salon": "101C",
+  "g_v": "",
+  "g_m": "",
+  "_class": "com.angel.velazquez.horarios.Models.Salon"
+},
+{
+  "_id": {
+    "$oid": "676f5ea9ad2add464def5495"
+  },
+  "salon": "102C",
+  "g_v": "",
+  "g_m": "675d0445b99f8e88153653e6",
+  "_class": "com.angel.velazquez.horarios.Models.Salon"
+},
+{
+  "_id": {
+    "$oid": "676f5eb3ad2add464def5496"
+  },
+  "salon": "103C",
+  "g_v": "",
+  "g_m": "",
+  "_class": "com.angel.velazquez.horarios.Models.Salon"
+},
+{
+  "_id": {
+    "$oid": "676f5eb7ad2add464def5497"
+  },
+  "salon": "104C",
+  "g_v": "",
+  "g_m": "",
+  "_class": "com.angel.velazquez.horarios.Models.Salon"
+},
+{
+  "_id": {
+    "$oid": "676f5ec2ad2add464def5498"
+  },
+  "salon": "201C",
+  "g_v": "",
+  "g_m": "",
+  "_class": "com.angel.velazquez.horarios.Models.Salon"
+},
+{
+  "_id": {
+    "$oid": "676f5ec5ad2add464def5499"
+  },
+  "salon": "202C",
+  "g_v": "",
+  "g_m": "",
+  "_class": "com.angel.velazquez.horarios.Models.Salon"
+},
+{
+  "_id": {
+    "$oid": "676f5ec9ad2add464def549a"
+  },
+  "salon": "203C",
+  "g_v": "",
+  "g_m": "",
+  "_class": "com.angel.velazquez.horarios.Models.Salon"
+},
+{
+  "_id": {
+    "$oid": "676f5ecead2add464def549b"
+  },
+  "salon": "204C",
+  "g_v": "",
+  "g_m": "",
+  "_class": "com.angel.velazquez.horarios.Models.Salon"
+},
+{
+  "_id": {
+    "$oid": "676f5ed1ad2add464def549c"
+  },
+  "salon": "205C",
+  "g_v": "",
+  "g_m": "",
+  "_class": "com.angel.velazquez.horarios.Models.Salon"
+},
+{
+  "_id": {
+    "$oid": "676f5ed5ad2add464def549d"
+  },
+  "salon": "206C",
+  "g_v": "",
+  "g_m": "",
+  "_class": "com.angel.velazquez.horarios.Models.Salon"
+},
+{
+  "_id": {
+    "$oid": "676f5ed8ad2add464def549e"
+  },
+  "salon": "207C",
+  "g_v": "",
+  "g_m": "",
+  "_class": "com.angel.velazquez.horarios.Models.Salon"
+},
+{
+  "_id": {
+    "$oid": "676f5edbad2add464def549f"
+  },
+  "salon": "208C",
+  "g_v": "",
+  "g_m": "",
+  "_class": "com.angel.velazquez.horarios.Models.Salon"
+}]

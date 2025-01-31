@@ -1,0 +1,1975 @@
+[{
+  "_id": {
+    "$oid": "675d02d3b99f8e88153653c6"
+  },
+  "nombre": "Teresita del Niño Jesus",
+  "apellido": "Arriaga Sierra",
+  "entrada": "07:00",
+  "salida": "15:00",
+  "antiguedad": "2019/08/01",
+  "bandera": "materias",
+  "horas": 0,
+  "materias": [
+    "Redes de Computadoras",
+    "Conmutacion y Enrutamiento en Redes de Datos",
+    "Administracion de Redes",
+    "Ecuaciones Diferenciales"
+  ],
+  "asignaciones": [
+    {
+      "_id": "",
+      "materia": ""
+    }
+  ],
+  "horario": [
+    [
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      ""
+    ],
+    [
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      ""
+    ],
+    [
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      ""
+    ],
+    [
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      ""
+    ],
+    [
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      ""
+    ]
+  ],
+  "_class": "com.angel.velazquez.horarios.Models.Profesor"
+},
+{
+  "_id": {
+    "$oid": "675d02d3b99f8e88153653c7"
+  },
+  "nombre": "Fernando René",
+  "apellido": "Barbosa Morales",
+  "entrada": "07:00",
+  "salida": "15:00",
+  "antiguedad": "2017/10/01",
+  "bandera": "ptc",
+  "horas": 20,
+  "materias": [
+    "Ecuaciones Diferenciales",
+    "Matematicas Discretas",
+    "Calculo Diferencial",
+    "Calculo Integral",
+    "Calculo Vectorial"
+  ],
+  "asignaciones": [
+    {
+      "_id": "",
+      "materia": ""
+    },
+    {
+      "_id": "51939",
+      "materia": "675d0231b99f8e8815365396",
+      "objeto": "677dda38789bd20ff624046d"
+    },
+    {
+      "_id": "4425",
+      "materia": "675d0231b99f8e88153653a3",
+      "objeto": "677dcfb7789bd20ff6240464"
+    },
+    {
+      "_id": "80523",
+      "materia": "675d0231b99f8e8815365396",
+      "objeto": "677dcfa6789bd20ff6240463"
+    }
+  ],
+  "horario": [
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "_class": "com.angel.velazquez.horarios.Models.Profesor"
+},
+{
+  "_id": {
+    "$oid": "675d02d3b99f8e88153653c8"
+  },
+  "nombre": "Elva",
+  "apellido": "Bernal Rodriguez",
+  "entrada": "14:00",
+  "salida": "22:00",
+  "antiguedad": "2006/05/09",
+  "bandera": "ptc",
+  "horas": 0,
+  "materias": [
+    "Fundamentos de Programacion",
+    "Taller de Bases de Datos",
+    "Ingenieria de Software"
+  ],
+  "horario": [
+    [
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      ""
+    ],
+    [
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      ""
+    ],
+    [
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      ""
+    ],
+    [
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      ""
+    ],
+    [
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      ""
+    ]
+  ],
+  "_class": "com.angel.velazquez.horarios.Models.Profesor",
+  "asignaciones": [
+    {
+      "id": "",
+      "objeto": "",
+      "materia": ""
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "675d02d3b99f8e88153653c9"
+  },
+  "nombre": "Elizabeth",
+  "apellido": "Bravo Gomez",
+  "entrada": "07:00",
+  "salida": "15:00",
+  "antiguedad": "2016/08/01",
+  "bandera": "materias",
+  "horas": 4,
+  "materias": [
+    "Taller de Sistemas Operativos",
+    "Taller de Investigacion I",
+    "Sistemas Operativos",
+    "Taller de Investigacion II"
+  ],
+  "asignaciones": [
+    {
+      "_id": "",
+      "materia": ""
+    },
+    {
+      "_id": "84546",
+      "materia": "675d0231b99f8e88153653a8",
+      "objeto": "677dcfb7789bd20ff6240464"
+    }
+  ],
+  "horario": [
+    [
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      ""
+    ],
+    [
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "84546",
+      "84546"
+    ],
+    [
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      ""
+    ],
+    [
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "84546",
+      "84546"
+    ],
+    [
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      ""
+    ]
+  ],
+  "_class": "com.angel.velazquez.horarios.Models.Profesor"
+},
+{
+  "_id": {
+    "$oid": "675d02d3b99f8e88153653ca"
+  },
+  "nombre": "Martha Patricia",
+  "apellido": "Calderon Zertuche",
+  "entrada": "07:00",
+  "salida": "15:00",
+  "antiguedad": "2003/08/01",
+  "bandera": "materias",
+  "horas": 0,
+  "materias": [],
+  "horario": [
+    [
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      ""
+    ],
+    [
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      ""
+    ],
+    [
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      ""
+    ],
+    [
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      ""
+    ],
+    [
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      ""
+    ]
+  ],
+  "_class": "com.angel.velazquez.horarios.Models.Profesor",
+  "asignaciones": [
+    {
+      "id": "",
+      "objeto": "",
+      "materia": ""
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "675d02d3b99f8e88153653cb"
+  },
+  "nombre": "Jose Luis",
+  "apellido": "Camacho Campero",
+  "entrada": "14:00",
+  "salida": "22:00",
+  "antiguedad": "2020/02/24",
+  "bandera": "ptc",
+  "horas": 0,
+  "materias": [
+    "Simulacion",
+    "Fundamentos de Ingenieria de Software",
+    "Sistemas Programables"
+  ],
+  "asignaciones": [
+    {
+      "materia": "",
+      "objeto": ""
+    }
+  ],
+  "horario": [
+    [
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      ""
+    ],
+    [
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      ""
+    ],
+    [
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      ""
+    ],
+    [
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      ""
+    ],
+    [
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      ""
+    ]
+  ],
+  "_class": "com.angel.velazquez.horarios.Models.Profesor"
+},
+{
+  "_id": {
+    "$oid": "675d02d3b99f8e88153653cc"
+  },
+  "nombre": "Guillermina",
+  "apellido": "De Jesus Peña",
+  "entrada": "14:00",
+  "salida": "22:00",
+  "antiguedad": "2011/11/01",
+  "bandera": "materias",
+  "horas": 0,
+  "materias": [
+    "Cultura Empresarial"
+  ],
+  "asignaciones": [
+    {
+      "materia": "",
+      "objeto": ""
+    }
+  ],
+  "horario": [
+    [
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      ""
+    ],
+    [
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      ""
+    ],
+    [
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      ""
+    ],
+    [
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      ""
+    ],
+    [
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      ""
+    ]
+  ],
+  "_class": "com.angel.velazquez.horarios.Models.Profesor"
+},
+{
+  "_id": {
+    "$oid": "675d02d3b99f8e88153653cd"
+  },
+  "nombre": "Lilia Cecilia",
+  "apellido": "Espinoza Garcia",
+  "entrada": "07:00",
+  "salida": "15:00",
+  "antiguedad": "2020/02/20",
+  "bandera": "materias",
+  "horas": 10,
+  "materias": [
+    "Programacion Orientada a Objetos"
+  ],
+  "asignaciones": [
+    {
+      "_id": "",
+      "materia": ""
+    },
+    {
+      "_id": "43351",
+      "materia": "675d0231b99f8e8815365397",
+      "objeto": "677dda38789bd20ff624046d"
+    }
+  ],
+  "horario": [
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "_class": "com.angel.velazquez.horarios.Models.Profesor"
+},
+{
+  "_id": {
+    "$oid": "675d02d3b99f8e88153653ce"
+  },
+  "nombre": "Edith",
+  "apellido": "Flores Hernandez",
+  "entrada": "07:00",
+  "salida": "15:00",
+  "antiguedad": "2016/08/01",
+  "bandera": "materias",
+  "horas": 5,
+  "materias": [
+    "Desarrollo Sustentable",
+    "Gestion de Proyectos de Software"
+  ],
+  "asignaciones": [
+    {
+      "_id": "",
+      "materia": ""
+    },
+    {
+      "_id": "99053",
+      "materia": "675d0231b99f8e88153653a2",
+      "objeto": "677dcfb7789bd20ff6240464"
+    }
+  ],
+  "horario": [
+    [
+      "99053",
+      "99053",
+      "",
+      "",
+      "",
+      "",
+      "",
+      ""
+    ],
+    [
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      ""
+    ],
+    [
+      "99053",
+      "99053",
+      "",
+      "",
+      "",
+      "",
+      "",
+      ""
+    ],
+    [
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      ""
+    ],
+    [
+      "99053",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      ""
+    ]
+  ],
+  "_class": "com.angel.velazquez.horarios.Models.Profesor"
+},
+{
+  "_id": {
+    "$oid": "675d02d3b99f8e88153653cf"
+  },
+  "nombre": "Sofia",
+  "apellido": "Gomez Ortiz",
+  "entrada": "07:00",
+  "salida": "15:00",
+  "antiguedad": "2018/10/23",
+  "bandera": "materias",
+  "horas": 6,
+  "materias": [
+    "Simulacion"
+  ],
+  "asignaciones": [
+    {
+      "_id": "",
+      "materia": ""
+    },
+    {
+      "_id": "78212",
+      "materia": "675d0231b99f8e88153653a7",
+      "objeto": "677dcfb7789bd20ff6240464"
+    },
+    {
+      "_id": "27940",
+      "materia": "Tutorias",
+      "objeto": "677dcfb7789bd20ff6240464"
+    }
+  ],
+  "horario": [
+    [
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      ""
+    ],
+    [
+      "",
+      "",
+      "",
+      "",
+      "78212",
+      "78212",
+      "",
+      ""
+    ],
+    [
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      ""
+    ],
+    [
+      "",
+      "",
+      "",
+      "",
+      "78212",
+      "78212",
+      "",
+      ""
+    ],
+    [
+      "",
+      "",
+      "",
+      "",
+      "78212",
+      "27940",
+      "",
+      ""
+    ]
+  ],
+  "_class": "com.angel.velazquez.horarios.Models.Profesor"
+},
+{
+  "_id": {
+    "$oid": "675d02d3b99f8e88153653d0"
+  },
+  "nombre": "Lidia",
+  "apellido": "Gonzalez Gonzalez",
+  "entrada": "07:00",
+  "salida": "15:00",
+  "antiguedad": "1998/09/23",
+  "bandera": "definitividad",
+  "horas": 15,
+  "materias": [
+    "Ingenieria de Software",
+    "Probabilidad y Estadistica"
+  ],
+  "asignaciones": [
+    {
+      "_id": "",
+      "materia": ""
+    },
+    {
+      "_id": "93680",
+      "materia": "675d0231b99f8e881536539a",
+      "objeto": "677dda38789bd20ff624046d"
+    },
+    {
+      "_id": "98569",
+      "materia": "675d0231b99f8e881536539a",
+      "objeto": "677dcfa6789bd20ff6240463"
+    }
+  ],
+  "horario": [
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "_class": "com.angel.velazquez.horarios.Models.Profesor"
+},
+{
+  "_id": {
+    "$oid": "675d02d3b99f8e88153653d1"
+  },
+  "nombre": "Guillermo",
+  "apellido": "Gonzalez Peñaran",
+  "entrada": "14:00",
+  "salida": "22:00",
+  "antiguedad": "2018/10/08",
+  "bandera": "materias",
+  "horas": 0,
+  "materias": [
+    "Algebra Lineal",
+    "Fisica General",
+    "Principios Electricos y Aplicaciones Digitales",
+    "Fundamentos de Telecomuncaciones",
+    "Redes de Computadoras"
+  ],
+  "horario": [
+    [
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      ""
+    ],
+    [
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      ""
+    ],
+    [
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      ""
+    ],
+    [
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      ""
+    ],
+    [
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      ""
+    ]
+  ],
+  "_class": "com.angel.velazquez.horarios.Models.Profesor",
+  "asignaciones": [
+    {
+      "id": "",
+      "objeto": "",
+      "materia": ""
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "675d02d3b99f8e88153653d2"
+  },
+  "nombre": "Enrique",
+  "apellido": "Hernandez Rodriguez",
+  "entrada": "14:00",
+  "salida": "22:00",
+  "antiguedad": "2005/09/08",
+  "bandera": "materias",
+  "horas": 0,
+  "materias": [
+    "Quimica",
+    "Algebra Lineal",
+    "Investigacion de Operaciones",
+    "Ecuaciones Diferenciales"
+  ],
+  "horario": [
+    [
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      ""
+    ],
+    [
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      ""
+    ],
+    [
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      ""
+    ],
+    [
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      ""
+    ],
+    [
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      ""
+    ]
+  ],
+  "_class": "com.angel.velazquez.horarios.Models.Profesor",
+  "asignaciones": [
+    {
+      "id": "",
+      "objeto": "",
+      "materia": ""
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "675d02d3b99f8e88153653d3"
+  },
+  "nombre": "Viridiana",
+  "apellido": "Jimenez Martinez",
+  "entrada": "14:00",
+  "salida": "22:00",
+  "antiguedad": "2014/10/16",
+  "bandera": "ptc",
+  "horas": 0,
+  "materias": [
+    "Calculo Diferencial",
+    "Calculo Integral"
+  ],
+  "horario": [
+    [
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      ""
+    ],
+    [
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      ""
+    ],
+    [
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      ""
+    ],
+    [
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      ""
+    ],
+    [
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      ""
+    ]
+  ],
+  "_class": "com.angel.velazquez.horarios.Models.Profesor",
+  "asignaciones": [
+    {
+      "id": "",
+      "objeto": "",
+      "materia": ""
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "675d02d3b99f8e88153653d4"
+  },
+  "nombre": "Miriam",
+  "apellido": "Juarez Gutierrez",
+  "entrada": "12:00",
+  "salida": "20:00",
+  "antiguedad": "2023/04/01",
+  "bandera": "materias",
+  "horas": 12,
+  "materias": [
+    "Contabilidad Financiera",
+    "Taller de Investigacion I"
+  ],
+  "asignaciones": [
+    {
+      "_id": "",
+      "materia": ""
+    },
+    {
+      "_id": "52123",
+      "materia": "675d0231b99f8e8815365398",
+      "objeto": "677dda38789bd20ff624046d"
+    },
+    {
+      "_id": "29406",
+      "materia": "675d0231b99f8e8815365398",
+      "objeto": "677dcfa6789bd20ff6240463"
+    }
+  ],
+  "horario": [
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "_class": "com.angel.velazquez.horarios.Models.Profesor"
+},
+{
+  "_id": {
+    "$oid": "675d02d3b99f8e88153653d5"
+  },
+  "nombre": "Brian Antonio",
+  "apellido": "Mejia Diaz",
+  "entrada": "07:00",
+  "salida": "15:00",
+  "antiguedad": "2016/04/04",
+  "bandera": "ptc",
+  "horas": 4,
+  "materias": [
+    "Lenguajes y Automatas II",
+    "Metodos Numericos"
+  ],
+  "asignaciones": [
+    {
+      "_id": "",
+      "materia": ""
+    },
+    {
+      "_id": "79310",
+      "materia": "675d0231b99f8e88153653a4",
+      "objeto": "677dcfb7789bd20ff6240464"
+    }
+  ],
+  "horario": [
+    [
+      "",
+      "",
+      "79310",
+      "79310",
+      "",
+      "",
+      "",
+      ""
+    ],
+    [
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      ""
+    ],
+    [
+      "",
+      "",
+      "79310",
+      "79310",
+      "",
+      "",
+      "",
+      ""
+    ],
+    [
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      ""
+    ],
+    [
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      ""
+    ]
+  ],
+  "_class": "com.angel.velazquez.horarios.Models.Profesor"
+},
+{
+  "_id": {
+    "$oid": "675d02d3b99f8e88153653d6"
+  },
+  "nombre": "Oscar",
+  "apellido": "Olivares Lopez",
+  "entrada": "07:00",
+  "salida": "15:00",
+  "antiguedad": "2018/08/01",
+  "bandera": "ptc",
+  "horas": 10,
+  "materias": [
+    "Topicos Avanzados de Programacion",
+    "Lenguajes y Automatas II",
+    "Fundamentos de Programacion",
+    "Programacion Orientada a Objetos",
+    "Topicos Avanzados de Programacion"
+  ],
+  "asignaciones": [
+    {
+      "_id": "",
+      "materia": ""
+    },
+    {
+      "_id": "10693",
+      "materia": "675d0231b99f8e88153653a5",
+      "objeto": "677dcfb7789bd20ff6240464"
+    },
+    {
+      "_id": "73811",
+      "materia": "675d0231b99f8e8815365397",
+      "objeto": "677dcfa6789bd20ff6240463"
+    }
+  ],
+  "horario": [
+    [
+      "",
+      "",
+      "73811",
+      "73811",
+      "",
+      "",
+      "",
+      ""
+    ],
+    [
+      "10693",
+      "10693",
+      "",
+      "",
+      "",
+      "",
+      "",
+      ""
+    ],
+    [
+      "",
+      "",
+      "73811",
+      "73811",
+      "",
+      "",
+      "",
+      ""
+    ],
+    [
+      "10693",
+      "10693",
+      "",
+      "",
+      "",
+      "",
+      "",
+      ""
+    ],
+    [
+      "",
+      "",
+      "10693",
+      "73811",
+      "",
+      "",
+      "",
+      ""
+    ]
+  ],
+  "_class": "com.angel.velazquez.horarios.Models.Profesor"
+},
+{
+  "_id": {
+    "$oid": "675d02d3b99f8e88153653d7"
+  },
+  "nombre": "Luis Gerardo",
+  "apellido": "Ortega Ortiz",
+  "entrada": "15:00",
+  "salida": "22:00",
+  "antiguedad": "2005/02/01",
+  "bandera": "materias",
+  "horas": 0,
+  "materias": [
+    "Estructura de Datos",
+    "Sistemas Operativos",
+    "Ingenieria de Software",
+    "Arquitectura de Computadoras"
+  ],
+  "horario": [
+    [
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      ""
+    ],
+    [
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      ""
+    ],
+    [
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      ""
+    ],
+    [
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      ""
+    ],
+    [
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      ""
+    ]
+  ],
+  "_class": "com.angel.velazquez.horarios.Models.Profesor",
+  "asignaciones": [
+    {
+      "id": "",
+      "objeto": "",
+      "materia": ""
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "675d02d3b99f8e88153653d8"
+  },
+  "nombre": "Alejandro Rafael",
+  "apellido": "Ramirez Zavala",
+  "entrada": "14:00",
+  "salida": "22:00",
+  "antiguedad": "2015/10/09",
+  "bandera": "materias",
+  "horas": 0,
+  "materias": [
+    "Fundamentos de Bases de Datos",
+    "Administracion de bases de Datos"
+  ],
+  "horario": [
+    [
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      ""
+    ],
+    [
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      ""
+    ],
+    [
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      ""
+    ],
+    [
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      ""
+    ],
+    [
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      ""
+    ]
+  ],
+  "_class": "com.angel.velazquez.horarios.Models.Profesor",
+  "asignaciones": [
+    {
+      "id": "",
+      "objeto": "",
+      "materia": ""
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "675d02d3b99f8e88153653d9"
+  },
+  "nombre": "Cristhoper Aaron",
+  "apellido": "Rico Fonseca",
+  "entrada": "07:00",
+  "salida": "15:00",
+  "antiguedad": "2013/03/13",
+  "bandera": "materias",
+  "horas": 16,
+  "materias": [
+    "Principios Electricos y Aplicaciones Digitales",
+    "Lenguajes de Interfaz",
+    "Sistemas Programables",
+    "Fisica General"
+  ],
+  "asignaciones": [
+    {
+      "_id": "",
+      "materia": ""
+    },
+    {
+      "_id": "53116",
+      "materia": "675d0231b99f8e881536539b",
+      "objeto": "677dda38789bd20ff624046d"
+    },
+    {
+      "_id": "71181",
+      "materia": "Tutorias",
+      "objeto": "677dda38789bd20ff624046d"
+    },
+    {
+      "_id": "94398",
+      "materia": "675d0231b99f8e881536539b",
+      "objeto": "677dcfa6789bd20ff6240463"
+    }
+  ],
+  "horario": [
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "_class": "com.angel.velazquez.horarios.Models.Profesor"
+},
+{
+  "_id": {
+    "$oid": "675d02d3b99f8e88153653da"
+  },
+  "nombre": "Laura",
+  "apellido": "Rodriguez Maya",
+  "entrada": "14:00",
+  "salida": "22:00",
+  "antiguedad": "2011/09/11",
+  "bandera": "ptc",
+  "horas": 0,
+  "materias": [
+    "Gestion de Proyectos de Software",
+    "Administracion de Redes"
+  ],
+  "horario": [
+    [
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      ""
+    ],
+    [
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      ""
+    ],
+    [
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      ""
+    ],
+    [
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      ""
+    ],
+    [
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      ""
+    ]
+  ],
+  "_class": "com.angel.velazquez.horarios.Models.Profesor",
+  "asignaciones": [
+    {
+      "id": "",
+      "objeto": "",
+      "materia": ""
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "675d02d3b99f8e88153653db"
+  },
+  "nombre": "Marcos",
+  "apellido": "Salinas Badillo",
+  "entrada": "07:00",
+  "salida": "13:00",
+  "antiguedad": "2023/04/17",
+  "bandera": "materias",
+  "horas": 0,
+  "materias": [
+    "Ecuaciones Diferenciales",
+    "Programacion Logica y Funcional",
+    "Inteligencia Articial",
+    "Lenguajes de Interfaz"
+  ],
+  "horario": [
+    [
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      ""
+    ],
+    [
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      ""
+    ],
+    [
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      ""
+    ],
+    [
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      ""
+    ],
+    [
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      ""
+    ]
+  ],
+  "_class": "com.angel.velazquez.horarios.Models.Profesor",
+  "asignaciones": [
+    {
+      "id": "",
+      "objeto": "",
+      "materia": ""
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "675d02d3b99f8e88153653dc"
+  },
+  "nombre": "Esteban",
+  "apellido": "Sanchez Escarriola",
+  "entrada": "14:00",
+  "salida": "22:00",
+  "antiguedad": "2005/08/01",
+  "bandera": "ptc",
+  "horas": 0,
+  "materias": [
+    "Estructura de Datos",
+    "Topicos Avanzados de Programacion",
+    "Inteligencia Articial"
+  ],
+  "horario": [
+    [
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      ""
+    ],
+    [
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      ""
+    ],
+    [
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      ""
+    ],
+    [
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      ""
+    ],
+    [
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      ""
+    ]
+  ],
+  "_class": "com.angel.velazquez.horarios.Models.Profesor",
+  "asignaciones": [
+    {
+      "id": "",
+      "objeto": "",
+      "materia": ""
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "675d02d3b99f8e88153653dd"
+  },
+  "nombre": "Luis Antonio",
+  "apellido": "Sanchez Reynoso",
+  "entrada": "07:00",
+  "salida": "15:00",
+  "antiguedad": "2004/08/15",
+  "bandera": "definitividad",
+  "horas": 22,
+  "materias": [
+    "Programacion Orientada a Objetos",
+    "Fundamentos de Bases de Datos",
+    "Algebra Lineal"
+  ],
+  "asignaciones": [
+    {
+      "_id": "",
+      "materia": ""
+    },
+    {
+      "_id": "3694",
+      "materia": "675d0231b99f8e8815365399",
+      "objeto": "677dda38789bd20ff624046d"
+    },
+    {
+      "_id": "50467",
+      "materia": "675d0231b99f8e88153653a6",
+      "objeto": "677dcfb7789bd20ff6240464"
+    },
+    {
+      "_id": "96129",
+      "materia": "675d0231b99f8e8815365399",
+      "objeto": "677dcfa6789bd20ff6240463"
+    },
+    {
+      "_id": "11678",
+      "materia": "Tutorias",
+      "objeto": "677dcfa6789bd20ff6240463"
+    }
+  ],
+  "horario": [
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "_class": "com.angel.velazquez.horarios.Models.Profesor"
+},
+{
+  "_id": {
+    "$oid": "675d02d3b99f8e88153653de"
+  },
+  "nombre": "Jose Juan",
+  "apellido": "Santana Ortiz",
+  "entrada": "07:00",
+  "salida": "18:00",
+  "antiguedad": "2018/02/26",
+  "bandera": "materias",
+  "horas": 0,
+  "materias": [
+    "Administracion de bases de Datos",
+    "Lenguajes de Interfaz",
+    "Programacion Web",
+    "Lenguajes y Automatas I",
+    "Lenguajes y Automatas II"
+  ],
+  "asignaciones": [
+    {
+      "_id": "",
+      "materia": ""
+    }
+  ],
+  "horario": [
+    [
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      ""
+    ],
+    [
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      ""
+    ],
+    [
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      ""
+    ],
+    [
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      ""
+    ],
+    [
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      ""
+    ]
+  ],
+  "_class": "com.angel.velazquez.horarios.Models.Profesor"
+},
+{
+  "_id": {
+    "$oid": "675d02d3b99f8e88153653df"
+  },
+  "nombre": "Maria Angelica",
+  "apellido": "Santillan Choreño",
+  "entrada": "16:00",
+  "salida": "22:00",
+  "antiguedad": "2002/08/16",
+  "bandera": "materias",
+  "horas": 0,
+  "materias": [
+    "Matematicas Discretas",
+    "Probabilidad y Estadistica"
+  ],
+  "asignaciones": [
+    {
+      "materia": "",
+      "objeto": ""
+    }
+  ],
+  "horario": [
+    [
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      ""
+    ],
+    [
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      ""
+    ],
+    [
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      ""
+    ],
+    [
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      ""
+    ],
+    [
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      ""
+    ]
+  ],
+  "_class": "com.angel.velazquez.horarios.Models.Profesor"
+},
+{
+  "_id": {
+    "$oid": "675d02d3b99f8e88153653e0"
+  },
+  "nombre": "Alfredo",
+  "apellido": "Valle Hernandez",
+  "entrada": "14:00",
+  "salida": "22:00",
+  "antiguedad": "2016/04/01",
+  "bandera": "materias",
+  "horas": 0,
+  "materias": [
+    "Programacion Orientada a Objetos",
+    "Metodos Numericos",
+    "Graficacion"
+  ],
+  "horario": [
+    [
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      ""
+    ],
+    [
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      ""
+    ],
+    [
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      ""
+    ],
+    [
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      ""
+    ],
+    [
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      ""
+    ]
+  ],
+  "_class": "com.angel.velazquez.horarios.Models.Profesor",
+  "asignaciones": [
+    {
+      "id": "",
+      "objeto": "",
+      "materia": ""
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "675d02d3b99f8e88153653e1"
+  },
+  "nombre": "Israel",
+  "apellido": "Vilchis Ruiz",
+  "entrada": "14:00",
+  "salida": "22:00",
+  "antiguedad": "2022/04/01",
+  "bandera": "materias",
+  "horas": 0,
+  "materias": [
+    "Calculo Vectorial",
+    "Calculo Integral"
+  ],
+  "horario": [
+    [
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      ""
+    ],
+    [
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      ""
+    ],
+    [
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      ""
+    ],
+    [
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      ""
+    ],
+    [
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      ""
+    ]
+  ],
+  "_class": "com.angel.velazquez.horarios.Models.Profesor",
+  "asignaciones": [
+    {
+      "id": "",
+      "objeto": "",
+      "materia": ""
+    }
+  ]
+}]

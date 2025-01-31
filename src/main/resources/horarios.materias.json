@@ -1,0 +1,459 @@
+[{
+  "_id": {
+    "$oid": "675d0231b99f8e8815365390"
+  },
+  "nombre": "Calculo Diferencial",
+  "clave": "ACF-0901",
+  "horas": 5,
+  "semestre": 1
+},
+{
+  "_id": {
+    "$oid": "675d0231b99f8e8815365391"
+  },
+  "nombre": "Fundamentos de Programacion",
+  "clave": "AED-1285",
+  "horas": 5,
+  "semestre": 1
+},
+{
+  "_id": {
+    "$oid": "675d0231b99f8e8815365392"
+  },
+  "nombre": "Taller de Etica",
+  "clave": "ACA-0907",
+  "horas": 4,
+  "semestre": 1
+},
+{
+  "_id": {
+    "$oid": "675d0231b99f8e8815365393"
+  },
+  "nombre": "Matematicas Discretas",
+  "clave": "AEF-1041",
+  "horas": 5,
+  "semestre": 1
+},
+{
+  "_id": {
+    "$oid": "675d0231b99f8e8815365394"
+  },
+  "nombre": "Taller de Administracion",
+  "clave": "SCH-1024",
+  "horas": 4,
+  "semestre": 1
+},
+{
+  "_id": {
+    "$oid": "675d0231b99f8e8815365395"
+  },
+  "nombre": "Quimica",
+  "clave": "AEC-1058",
+  "horas": 4,
+  "semestre": 1
+},
+{
+  "_id": {
+    "$oid": "675d0231b99f8e8815365396"
+  },
+  "nombre": "Calculo Integral",
+  "clave": "ACF-0902",
+  "horas": 5,
+  "semestre": 2
+},
+{
+  "_id": {
+    "$oid": "675d0231b99f8e8815365397"
+  },
+  "nombre": "Programacion Orientada a Objetos",
+  "clave": "AED-1286",
+  "horas": 5,
+  "semestre": 2
+},
+{
+  "_id": {
+    "$oid": "675d0231b99f8e8815365398"
+  },
+  "nombre": "Contabilidad Financiera",
+  "clave": "AEC-1008",
+  "horas": 4,
+  "semestre": 2
+},
+{
+  "_id": {
+    "$oid": "675d0231b99f8e8815365399"
+  },
+  "nombre": "Algebra Lineal",
+  "clave": "ACF-0903",
+  "horas": 5,
+  "semestre": 2
+},
+{
+  "_id": {
+    "$oid": "675d0231b99f8e881536539a"
+  },
+  "nombre": "Probabilidad y Estadistica",
+  "clave": "AEF-1052",
+  "horas": 5,
+  "semestre": 2
+},
+{
+  "_id": {
+    "$oid": "675d0231b99f8e881536539b"
+  },
+  "nombre": "Fisica General",
+  "clave": "SCF-1006",
+  "horas": 5,
+  "semestre": 2
+},
+{
+  "_id": {
+    "$oid": "675d0231b99f8e881536539c"
+  },
+  "nombre": "Calculo Vectorial",
+  "clave": "ACF-0904",
+  "horas": 5,
+  "semestre": 3
+},
+{
+  "_id": {
+    "$oid": "675d0231b99f8e881536539d"
+  },
+  "nombre": "Estructura de Datos",
+  "clave": "AED-1026",
+  "horas": 5,
+  "semestre": 3
+},
+{
+  "_id": {
+    "$oid": "675d0231b99f8e881536539e"
+  },
+  "nombre": "Cultura Empresarial",
+  "clave": "SCC-1005",
+  "horas": 4,
+  "semestre": 3
+},
+{
+  "_id": {
+    "$oid": "675d0231b99f8e881536539f"
+  },
+  "nombre": "Investigacion de Operaciones",
+  "clave": "SCC-1013",
+  "horas": 4,
+  "semestre": 3
+},
+{
+  "_id": {
+    "$oid": "675d0231b99f8e88153653a0"
+  },
+  "nombre": "Principios Electricos y Aplicaciones Digitales",
+  "clave": "SCD-1018",
+  "horas": 5,
+  "semestre": 3
+},
+{
+  "_id": {
+    "$oid": "675d0231b99f8e88153653a1"
+  },
+  "nombre": "Sistemas Operativos",
+  "clave": "AEC-1061",
+  "horas": 4,
+  "semestre": 3
+},
+{
+  "_id": {
+    "$oid": "675d0231b99f8e88153653a2"
+  },
+  "nombre": "Desarrollo Sustentable",
+  "clave": "ACD-0908",
+  "horas": 5,
+  "semestre": 4
+},
+{
+  "_id": {
+    "$oid": "675d0231b99f8e88153653a3"
+  },
+  "nombre": "Ecuaciones Diferenciales",
+  "clave": "ACF-0905",
+  "horas": 5,
+  "semestre": 4
+},
+{
+  "_id": {
+    "$oid": "675d0231b99f8e88153653a4"
+  },
+  "nombre": "Metodos Numericos",
+  "clave": "SCC-1017",
+  "horas": 4,
+  "semestre": 4
+},
+{
+  "_id": {
+    "$oid": "675d0231b99f8e88153653a5"
+  },
+  "nombre": "Topicos Avanzados de Programacion",
+  "clave": "SCD-1027",
+  "horas": 5,
+  "semestre": 4
+},
+{
+  "_id": {
+    "$oid": "675d0231b99f8e88153653a6"
+  },
+  "nombre": "Fundamentos de Bases de Datos",
+  "clave": "AEF-1031",
+  "horas": 5,
+  "semestre": 4
+},
+{
+  "_id": {
+    "$oid": "675d0231b99f8e88153653a7"
+  },
+  "nombre": "Simulacion",
+  "clave": "SCD-1022",
+  "horas": 5,
+  "semestre": 4
+},
+{
+  "_id": {
+    "$oid": "675d0231b99f8e88153653a8"
+  },
+  "nombre": "Taller de Sistemas Operativos",
+  "clave": "SCA-1026",
+  "horas": 4,
+  "semestre": 4
+},
+{
+  "_id": {
+    "$oid": "675d0231b99f8e88153653a9"
+  },
+  "nombre": "Fundamentos de Investigacion",
+  "clave": "ACC-0906",
+  "horas": 4,
+  "semestre": 5
+},
+{
+  "_id": {
+    "$oid": "675d0231b99f8e88153653aa"
+  },
+  "nombre": "Graficacion",
+  "clave": "SCC-1010",
+  "horas": 4,
+  "semestre": 5
+},
+{
+  "_id": {
+    "$oid": "675d0231b99f8e88153653ab"
+  },
+  "nombre": "Fundamentos de Telecomuncaciones",
+  "clave": "AEC-1034",
+  "horas": 4,
+  "semestre": 5
+},
+{
+  "_id": {
+    "$oid": "675d0231b99f8e88153653ac"
+  },
+  "nombre": "Taller de Bases de Datos",
+  "clave": "SCA-1025",
+  "horas": 4,
+  "semestre": 5
+},
+{
+  "_id": {
+    "$oid": "675d0231b99f8e88153653ad"
+  },
+  "nombre": "Fundamentos de Ingenieria de Software",
+  "clave": "SCC-1007",
+  "horas": 4,
+  "semestre": 5
+},
+{
+  "_id": {
+    "$oid": "675d0231b99f8e88153653ae"
+  },
+  "nombre": "Arquitectura de Computadoras",
+  "clave": "SCD-1003",
+  "horas": 5,
+  "semestre": 5
+},
+{
+  "_id": {
+    "$oid": "675d0231b99f8e88153653af"
+  },
+  "nombre": "Lenguajes y Automatas I",
+  "clave": "SCD-1015",
+  "horas": 5,
+  "semestre": 5
+},
+{
+  "_id": {
+    "$oid": "675d0231b99f8e88153653b0"
+  },
+  "nombre": "Redes de Computadoras",
+  "clave": "SCD-1021",
+  "horas": 5,
+  "semestre": 6
+},
+{
+  "_id": {
+    "$oid": "675d0231b99f8e88153653b1"
+  },
+  "nombre": "Administracion de bases de Datos",
+  "clave": "SCB-1001",
+  "horas": 5,
+  "semestre": 6
+},
+{
+  "_id": {
+    "$oid": "675d0231b99f8e88153653b2"
+  },
+  "nombre": "Ingenieria de Software",
+  "clave": "SCD-1011",
+  "horas": 5,
+  "semestre": 6
+},
+{
+  "_id": {
+    "$oid": "675d0231b99f8e88153653b3"
+  },
+  "nombre": "Lenguajes de Interfaz",
+  "clave": "SCC-1014",
+  "horas": 4,
+  "semestre": 6
+},
+{
+  "_id": {
+    "$oid": "675d0231b99f8e88153653b4"
+  },
+  "nombre": "Lenguajes y Automatas II",
+  "clave": "SCD-1016",
+  "horas": 5,
+  "semestre": 6
+},
+{
+  "_id": {
+    "$oid": "675d0231b99f8e88153653b5"
+  },
+  "nombre": "Taller de Investigacion I",
+  "clave": "ACA-0909",
+  "horas": 4,
+  "semestre": 6
+},
+{
+  "_id": {
+    "$oid": "675d0231b99f8e88153653b6"
+  },
+  "nombre": "Gestion de Proyectos de Software",
+  "clave": "SCG-1009",
+  "horas": 6,
+  "semestre": 6
+},
+{
+  "_id": {
+    "$oid": "675d0231b99f8e88153653b7"
+  },
+  "nombre": "Conmutacion y Enrutamiento en Redes de Datos",
+  "clave": "SCD-1004",
+  "horas": 5,
+  "semestre": 7
+},
+{
+  "_id": {
+    "$oid": "675d0231b99f8e88153653b8"
+  },
+  "nombre": "Sistemas Programables",
+  "clave": "SCC-1023",
+  "horas": 4,
+  "semestre": 7
+},
+{
+  "_id": {
+    "$oid": "675d0231b99f8e88153653b9"
+  },
+  "nombre": "Programacion Logica y Funcional",
+  "clave": "SCC-1019",
+  "horas": 4,
+  "semestre": 7
+},
+{
+  "_id": {
+    "$oid": "675d0231b99f8e88153653ba"
+  },
+  "nombre": "Taller de Investigacion II",
+  "clave": "ACA-0910",
+  "horas": 4,
+  "semestre": 7
+},
+{
+  "_id": {
+    "$oid": "675d0231b99f8e88153653bb"
+  },
+  "nombre": "Programacion Web",
+  "clave": "AEB-1055",
+  "horas": 4,
+  "semestre": 7
+},
+{
+  "_id": {
+    "$oid": "675d0231b99f8e88153653bc"
+  },
+  "nombre": "Inteligencia Articial",
+  "clave": "SCC-1012",
+  "horas": 4,
+  "semestre": 7
+},
+{
+  "_id": {
+    "$oid": "675d0231b99f8e88153653bd"
+  },
+  "nombre": "Administracion de Redes",
+  "clave": "SCA-1002",
+  "horas": 4,
+  "semestre": 8
+},
+{
+  "_id": {
+    "$oid": "675d0231b99f8e88153653be"
+  },
+  "nombre": "Ingenieria de Requerimentos",
+  "clave": "DSF-2401",
+  "horas": 5,
+  "semestre": 8
+},
+{
+  "_id": {
+    "$oid": "675d0231b99f8e88153653bf"
+  },
+  "nombre": "Programacion del lado del Cliente",
+  "clave": "DSF-2402",
+  "horas": 5,
+  "semestre": 8
+},
+{
+  "_id": {
+    "$oid": "675d0231b99f8e88153653c0"
+  },
+  "nombre": "Programacion del lado del Servidor",
+  "clave": "DSF-2403",
+  "horas": 5,
+  "semestre": 8
+},
+{
+  "_id": {
+    "$oid": "675d0231b99f8e88153653c1"
+  },
+  "nombre": "Seguridad en Aplicaciones WEB",
+  "clave": "DSF-2404",
+  "horas": 5,
+  "semestre": 8
+},
+{
+  "_id": {
+    "$oid": "675d0231b99f8e88153653c2"
+  },
+  "nombre": "Modelo vista controlador",
+  "clave": "DSF-2405",
+  "horas": 5,
+  "semestre": 8
+}]
